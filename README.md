@@ -4,15 +4,20 @@ This repository contains a full-stack Machine Learning pipeline designed to pred
 
 ---
 
-## 🎯*Project Overview*
+# 🎯*Project Overview*
 
 This project serves as a comprehensive blueprint for bridging the gap between raw data science and production-grade software engineering. In modern enterprise environments, machine learning models cannot exist in isolation; they must interact seamlessly with relational databases and external client applications. 
 
 To address this, the project establishes a robust, automated workflow divided into three core organizational phases:
 
-* **Data Layer & ETL:** Establishing a secure handshake with a local MySQL instance to query historical user advertisement data. This phase highlights how raw corporate data registries are structured, maintained, and safely ingested into memory space using optimized connection protocols.
-* **Modeling & Optimization Layer:** Transitioning data into analytical environments to execute feature engineering, isolate target variables, and run matrix computations. Using Scikit-Learn's Logistic Regression, the pipeline learns optimal decision boundaries to classify whether an ad viewer will convert into a buyer based on demographic factors, followed by high-efficiency serialization to freeze the model state.
-* **Serving Layer & Microservice Deployment:** Transforming the static model binary into a live, interactive web entity. By wrapping the predictor inside a Flask REST API framework, the system exposes scalable endpoints capable of handling real-time, stateless HTTP `POST` requests, parsing incoming JSON payloads, and generating instantaneous inference responses.
+* ## Data Layer & ETL:
+Establishing a secure handshake with a local `MySQL` instance to query historical user advertisement data. This phase highlights how raw corporate data registries are structured, maintained, and safely ingested into memory space using optimized connection protocols.
+  
+* ## Modeling & Optimization Layer:
+Transitioning data into analytical environments to execute feature engineering, isolate target variables, and run matrix computations. Using Scikit-Learn's Logistic Regression, the pipeline learns optimal decision boundaries to classify whether an ad viewer will convert into a buyer based on demographic factors, followed by high-efficiency serialization to freeze the model state.
+ 
+* ## Serving Layer & Microservice Deployment:
+Transforming the static model binary into a live, interactive web entity. By wrapping the predictor inside a Flask REST API framework, the system exposes scalable endpoints capable of handling real-time, stateless HTTP `POST` requests, parsing incoming JSON payloads, and generating instantaneous inference responses.
 
 ---
 
@@ -169,7 +174,7 @@ source venv/bin/activate
 python -m venv venv
 venv\Scripts\activate
 ```
-**3. Install Dependencies**
+## 3. Install Dependencies
 ```Bash
 pip install -r requirements.txt
 ```

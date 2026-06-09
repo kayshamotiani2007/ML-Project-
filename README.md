@@ -103,7 +103,7 @@ import joblib
 predictor = joblib.load("lr_model.pkl")
 ```
 
-#🔌 *API Documentation*
+# 🔌 *API Documentation*
 
 Inference Endpoint
 Route:``` /predict```
@@ -172,6 +172,15 @@ venv\Scripts\activate
 **3. Install Dependencies**
 ```Bash
 pip install -r requirements.txt
+```
+Example Dependencies:
+```
+Flask
+numpy
+pandas
+scikit-learn
+mysql-connector-python
+joblib
 ```
 **4. Boot the Microservice**
 ```Bash

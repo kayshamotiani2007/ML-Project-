@@ -1,4 +1,7 @@
-numpy 
-pandas 
+
+Flask
+numpy
+pandas
 scikit-learn
-flask
+mysql-connector-python
+joblib
